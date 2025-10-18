@@ -3,7 +3,7 @@ from discord.ext import commands
 
 client = discord.Client(activity=discord.Game(name='Femboy Greeting Robot biep boop'), intents=discord.Intents.all())
 
-bot = commands.Bot(command_prefix='//')
+bot = commands.Bot(command_prefix='//', intents=discord.Intents.all())
 
 welcome_channel_id = 0
 
