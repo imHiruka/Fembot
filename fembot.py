@@ -10,7 +10,7 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
     print(f'{member} has appeared on guild {member.guild}!')
-    channel = client.get_channel(ID)
+    channel = client.get_channel(1337132829817049150)
     await channel.send(f"{member.mention} Just joined, give them a nice warm welcome!")
 
 
